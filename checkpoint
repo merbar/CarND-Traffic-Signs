@@ -1,0 +1,3 @@
+model_checkpoint_path: "F:\\GitHub\\CarND-Traffic-Signs/convNet_50Cx50CxMx100Cx100CxMx1000F_50Drop.ckpt"
+all_model_checkpoint_paths: "F:\\GitHub\\CarND-Traffic-Signs/convNet_50Cx50CxMx100Cx100CxMx1000F_50Drop.ckpt-150"
+all_model_checkpoint_paths: "F:\\GitHub\\CarND-Traffic-Signs/convNet_50Cx50CxMx100Cx100CxMx1000F_50Drop.ckpt"
