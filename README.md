@@ -1,26 +1,30 @@
 # Self-Driving Car Engineer Nanodegree
-# Deep Learning
-## Project: Build a Traffic Sign Recognition Program
+## Project: Build a Traffic Sign Recognition Program using Deep Learning
 
 ### Overview
 
-In this project, you will use what you've learned about deep neural networks and convolutional neural networks to classify traffic signs. You will train a model so it can decode traffic signs from natural images by using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, you will then test your model program on new images of traffic signs you find on the web, or, if you're feeling adventurous pictures of traffic signs you find locally!
+In this project, I use Tensorflow to classify traffic signs. I  trained a model so it can decode traffic signs from natural images by using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model was trained, I then tested it on new images of traffic signs from the web.
+
+The project is in the notebook `Traffic_Signs_Recognition.ipynb`. There is a lot of information in there and the entire process is broken down into fairly small steps as follows:
+
+- Dataset exploration
+- Data augmentation
+- Model generation
+- Training
+- Test on unseen images
 
 ### Dependencies
 
 This project requires **Python 3.5** and the following Python libraries installed:
 
-- [Jupyter](http://jupyter.org/)
-- [NumPy](http://www.numpy.org/)
-- [SciPy](https://www.scipy.org/)
-- [scikit-learn](http://scikit-learn.org/)
-- [TensorFlow](http://tensorflow.org)
-- [Matplotlib](http://matplotlib.org/)
-- [Pandas](http://pandas.pydata.org/) (Optional)
-
-Run this command at the terminal prompt to install [OpenCV](http://opencv.org/). Useful for image processing:
-
-- `conda install -c https://conda.anaconda.org/menpo opencv3`
+- Jupyter
+- NumPy
+- OpenCV
+- SciPy
+- scikit-learn
+- TensorFlow
+- Matplotlib
+- Pandas
 
 ### Dataset
 
